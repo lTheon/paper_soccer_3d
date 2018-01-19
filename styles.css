@@ -1,0 +1,26 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow:hidden;
+}
+#showTurn{
+    position:fixed;
+    z-index: 3;
+    top:0;
+    left:0;
+    padding:5%;
+    color:yellow;
+}
+#help{
+    background:url(help.png);
+    background-size:cover;
+    width:50vw;
+    height:30vw;
+    position:absolute;
+    left:25vw;
+    top:30%;
+    z-index:20;
+    display:none;
+}

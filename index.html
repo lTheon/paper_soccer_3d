@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Projekt</title>
+    <link href="styles.css" rel="stylesheet" />
+    <!-- ************LIBS**************** -->
+    <script src="libs/jquery-1.12.1.js"></script>
+    <script src="libs/three.js"></script>
+    <script src="libs/ColladaLoader.js"></script>
+    <!-- *************CLASSES********** -->
+    <script src="classes/Main.js"></script>
+    <script src="classes/Map.js"></script>
+    <script src="classes/Square.js"></script>
+    <script src="classes/Lights.js"></script>
+    <script src="classes/Ball.js"></script>
+    <script src="classes/Controls.js"></script>
+    <script src="classes/StartScreen.js"></script>
+    <script src="classes/HelpScreen.js"></script>
+    <script>
+        var main;
+        window.addEventListener("load", function () {
+            main = new Main();
+        })
+    </script>
+</head>
+<body>
+    <div id="scene"></div>
+    <div id="startScreen"></div>
+    <div id="waiting"></div>
+    <div id="showTurn"></div>
+    <div id="help"></div>
+</body>
+</html>
